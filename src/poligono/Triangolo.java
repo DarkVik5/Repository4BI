@@ -8,7 +8,10 @@ public class Triangolo {
 			this.base=base;
 			this.altezza=altezza;
 		}
-
+		
+		public float areaTriangolo() {
+			return base*altezza;
+		}
 		public float getBase() {
 			return base;
 		}
